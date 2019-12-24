@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".controlvoice">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_mic_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fab"
+        android:text="tap to spek..."
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"/>
+
+
+
+</RelativeLayout>

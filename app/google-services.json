@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458244429252",
+    "firebase_url": "https://personal-assistant-2019.firebaseio.com",
+    "project_id": "personal-assistant-2019",
+    "storage_bucket": "personal-assistant-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458244429252:android:580e9f5b6b6efd2dad8091",
+        "android_client_info": {
+          "package_name": "com.example.personalassistant2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458244429252-vkk8j1m0l30ui9b31r5hns60vd84o0b8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.personalassistant2019",
+            "certificate_hash": "653a0dea64dc63a4b8057375efef7bf8ff93612c"
+          }
+        },
+        {
+          "client_id": "458244429252-6khmm8co4oi1546vtj5905r0r9qvl5ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt6T1P32toixphQj_FaoYQ4m3fKKPT43g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458244429252-6khmm8co4oi1546vtj5905r0r9qvl5ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

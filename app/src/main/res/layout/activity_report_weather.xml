@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportWeather">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"
+        android:id="@+id/t1_temp"
+        android:textColorHint="@color/colorAccent"
+        android:hint="temperatur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="city"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/colorAccent"
+        android:padding="20dp"
+        android:textAllCaps="true"
+
+        android:id="@+id/t1_city"
+        android:layout_below="@+id/t1_temp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="description"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/colorAccent"
+        android:padding="20dp"
+        android:textAllCaps="true"
+
+        android:id="@+id/t1_description"
+        android:layout_below="@+id/t1_city"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="date"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/colorAccent"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:id="@+id/t1_date"
+
+        android:layout_below="@+id/t1_description"/>
+
+</RelativeLayout>
